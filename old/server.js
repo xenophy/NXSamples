@@ -8,7 +8,7 @@
 
 // {{{ requires
 
-require('../lib/NX');
+require('NX');
 
 // }}}
 // {{{ HTTP Server
