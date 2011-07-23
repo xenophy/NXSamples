@@ -17,6 +17,8 @@ module.exports = {
         // 標準出力
         console.log('extent action');
 
+        this.set('ret3', 'ok');
+
         // アクション終了
         this.end();
 

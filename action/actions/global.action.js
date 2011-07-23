@@ -17,6 +17,8 @@ module.exports = {
         // 標準出力
         console.log('global action');
 
+        this.set('ret2', 'ok');
+
         // アクション終了
         this.end();
 
