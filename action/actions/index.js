@@ -17,7 +17,7 @@ module.exports = {
         // 標準出力
         console.log('index action');
 
-        this.set('ret1', 'ok');
+        this.set('ret1', this.request.foo);
 
         // アクション終了
         this.end();

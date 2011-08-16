@@ -14,8 +14,8 @@ require('NX');
 // {{{ HTTP Server
 
 NX.service({
-    workers: false,
-    enableDaemon: false
+//    workers: false,
+//    enableDaemon: false
 });
 
 // }}}
