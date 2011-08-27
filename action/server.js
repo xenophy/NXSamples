@@ -13,9 +13,23 @@ require('NX');
 // }}}
 // {{{ HTTP Server
 
+NX.Loader.setConfig({
+    enabled: true,
+    paths: {
+        'My': __dirname + '/./libs/'
+    }
+});
+
 NX.service({
-//    workers: false,
-//    enableDaemon: false
+    workers: false,
+    enableDaemon: false,
+    virtualhost: [{
+        server: 'nxtest1.com',
+        alias: '*.nxtest1.com',
+        port: 3000,
+        virtualroot: '{1}',
+        root: 'nxtest1'
+    }]
 });
 
 // }}}

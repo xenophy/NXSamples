@@ -2,16 +2,16 @@
 
 /*!
  * Next JS
- * Copyright (c)2011 Xenophy.CO.,LTD All rights Reserved.
+ * Copyright(c) 2006-2011 Xenophy.CO.,LTD All rights Reserved.
  * http://www.xenophy.com
  */
 
 // {{{ requires
 
-require('NX');
+require('nx');
 
 // }}}
-// {{{ HTTP Server
+// {{{ create server
 
 NX.service({
     workers: false,

@@ -8,14 +8,13 @@
 
 // {{{ extent.action
 
-module.exports = {
+module.exports = [{
 
     // {{{ execute
 
     execute: function() {
 
         // 標準出力
-        console.log('extent action');
 
         this.set('ret3', 'ok');
 
@@ -26,7 +25,16 @@ module.exports = {
 
     // }}}
 
-};
+},{
+
+    execute: function() {
+
+
+        this.end();
+    }
+
+
+}];
 
 // }}}
 

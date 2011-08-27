@@ -1,6 +1,0 @@
-
-Ext.onReady(function() {
-
-
-
-});
